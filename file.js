@@ -32,7 +32,7 @@ function countWords() {
   console.log(myArray);
 
   // TODO: sort the arrays based on the count number and store the result in a variable called bArray
-  let bArray = myArray.sort(function (a, b) { return b[1] - a[1] });
+  let bArray = myArray.sort(function (a, b) { return b[0] - a[0] });
 
 
   // return the first three most common words.
